@@ -1,0 +1,116 @@
+*{color:white;box-sizing:border-box;}
+body{background-color:black;font-family:'Noto Serif';height:100%;overflow-x:hidden;}
+.main{background-image:url('view.jpg');background-size:cover;width:100%;min-height:100%;position:relative;}
+h*{font-family:'Holtwood One SC';}
+.navMenu{padding:10px;}
+ul.navList{list-style-type:none;}
+ul.navList li{display:inline;}
+li.brandItem{font-family:'Holtwood One SC';font-size:200%;}
+li.navItem{font-weight:700;font-size:150%;float:right;margin:10px 10px 0px 10px;}
+.navBrand:visited, .navBrand:active, .navBrand:link{color:white;text-decoration:none;}
+.navBrand:hover{color:#e60000;transition:0.3s ease;}
+.listItem:visited, .listItem:active, .listItem:link{color:white;text-decoration:none;}
+.listItem:hover{color:#e60000;transition:0.3s ease;}
+.showNav{display:none;width:100%;}
+.showNavBrand{font-family:'Holtwood One SC';color:white;font-size:160%;}
+.showNavBrand:link, .showNavBrand:active, .showNavBrand:visited{color:white;}
+.showNavBrand:hover{text-decoration:none;cursor:pointer;color:#990000;transition:0.3s ease;}
+.showNavMenuList{display:none;}
+.showNavItem{font-size:200%;margin:15px 0px;color:black;}
+.showNavItem:link, .showNavItem:active, .showNavItem:visited{color:black;}
+.showNavItem:hover{color:#990000;transition:0.2s;text-decoration:none;}
+.mainTitle{text-align:center;padding:15% 0px 15% 0px;}
+.titleBig{font-family:'Holtwood One SC';font-size:700%;font-weight:bold;color:#f2f2f2;}
+.titleSmall{font-size:300%;font-weight:700;color:#d9d9d9;}
+.overlay{z-index:2;width:100%;height:100%;background-color:rgba(0,0,0,0.5);}
+.jumpButton{position:fixed;bottom:10px;right:30px;z-index:5;}
+.jumpBtn{background-color:#990000;opacity:0.5;border-radius:7px;border-style:none;focus:none;color:white;padding:8px 20px;text-align:center;text-decoration:none;display:inline-block;font-size:16px;margin:4px 2px;}
+.jumpBtn:hover{background-color:#ff0000;transition:0.3s ease;color:#ffffff;}
+.jumpBtn:focus{outline:0;}
+.first{padding:0px 80px;margin:50px 0px 100px 0px;}
+.intro{text-align:center;}
+.intro h1{font-size:500%;font-weight:bold;}
+.intro p{font-size:250%;}
+.menu{background-image:url('SidewalkEdit.jpg');background-size:cover;width:100%;font-family:'Holtwood One SC';margin-bottom:100px;}
+.fullMenu{padding:120px 0px;}
+.menuBullet{list-style-type:none;text-align:center;padding:0;}
+.menuListLink{cursor:pointer;font-size:500%;color:#b3b3ff;}
+.menuListLink:hover{color:white;transition:0.4s ease;}
+.menuBlock{display:none;font-weight:bold;font-size:100%;padding:40px 20px;transition:0.4s;width:97%;}
+.aboutBlock, .worksBlock, .servicesBlock, .galleryBlock{font-size:100%;border-radius:20px;}
+#about{display:none;padding:0px 80px;transition:0.4s;}
+.aboutHead{font-size:900%;}
+#services{display:none;padding:0px 80px;transition:0.4s ease;}
+#works{display:none;padding:0px 80px;transition:0.4s;}
+.galleryLink:active, .galleryLink:visited, .galleryLink:link{color:#b3b3ff;text-decoration:none;}
+.galleryLink:hover{color:white;transition:0.4s ease;text-decoration:none;}
+.worksBlock{width:100%;}
+.menuBlockHead{font-weight:bold;font-size:400%;}
+.servicesDesc{text-align:center;}
+.servicesDesc h2{text-decoration:underline;color:#b3b3ff;}
+.servicesImgDesc{width:100%;}
+.skillsImgBig{display:block;margin:auto;width:40%;height:auto;}
+.skillsImgMed{display:block;margin:auto;width:70%;height:auto;}
+.skillsImgSmall{display:block;margin:0px auto;width:50%;height:auto;margin:10px auto;}
+.menuBlockDesc{font-size:150%;letter-spacing:2px;text-align:justify;text-shadow:2px 2px black;}
+.closeButton{position:absolute;right:30px;font-size:50px;color:#b3b3ff;cursor:pointer;}
+.splitImg{width:100%;height:200px;border-radius:10px;margin-bottom:30px;}
+.splitOverlay{width:100%;height:100%;}
+.splitOverlay:hover{background-color:rgba(0,0,0,0.5);transition:0.4s ease;}
+.splitOne{background-image:url('SolisCover.png');background-size:cover;}
+.splitTwo{background-image:url('solisWord.JPG');background-size:cover;}
+.overNote{font-family:'Lobster';text-align:center;width:100%;position:absolute;top:25%;font-size:50px;color:black;}
+.overNote:hover, .overWord:hover{color:white;text-shadow:3px 5px black;transition:0.4s ease;}
+.overWord{font-family:'Merriweather';font-weight:900;text-align:center;width:100%;position:absolute;top:25%;font-size:50px;color:black;}
+.second{margin-top:100px;margin-bottom:100px;}
+.contactForm{width:100%;height:100%;background-color:rgba(0,0,0,0.5);z-index:10;}
+.contactBox{border:solid 10px white;background-color:#ff9933;border-radius:20px;padding:40px;margin-left:auto;margin-right:auto;font-family:'Holtwood One SC';text-shadow:1px 3px black;}
+.formButton{margin-top:10px;border:none;border-radius:5px;background-color:#990000;border-style:none;}
+.formClose{position:absolute;font-size:300%;font-weight:900;right:50px;margin-bottom:20px;}
+.detailsField{height:150px;}
+.footerLine{border:solid white 2px;width:95%;margin-left:auto;margin-right:auto;}
+.bigFooter{margin-top:30px;padding-bottom:80px;}
+ul.footerList{font-size:150%;list-style-type:none;margin:0px 0px 20px 0px;padding:0;}
+ul.listLeft{padding-left:0;font-family:'Holtwood One SC';}
+ul.listCenter{margin-right:50px;}
+div.listRight{text-align:center;}
+.listHead{margin-bottom:20px;font-family:'Holtwood One SC';}
+.listPin{display:inline-block;}
+img.pinImg{width:50px;height:auto;}
+.galleryBlock{width:100%;}
+.imgBlock{padding:20px 0px;}
+.galleryImg{width:80%;height:auto;}
+.galleryImg:hover{border:solid white 6px;border-radius:6px;transition:0.2s;}
+.messageLink:link, .messageLink:active, .messageLink:visited{color:white;text-decoration:none;}
+.messageLinkSm:link, .messageLinkSm:active, .messageLinkSm:visited{color:white;text-decoration:none;}
+.messageLinkSm:hover{color:#990000;transition:0.4s ease;}
+.messageLink:hover{color:#990000;font-weight:bold;font-size:125%;transition:0.4s ease;font-family:'Holtwood One SC';}
+.footerBrand{font-weight:bold;}
+.footerListLink{cursor:pointer;color:white;}
+.footerListLink:hover{text-decoration:none;color:#990000;transition:0.2s;}
+@media only screen and (max-width:770px){.footerList{width:100%;text-align:center;margin:0;padding:0;}
+.titleBig{font-size:350%;}
+.titleSmall{font-size:175%;}
+li.brandItem{font-size:125%;}
+.navMenu{display:none;}
+.showNav{display:block;padding:20px 10px 0px 10px;}
+.showNavMenuList{width:0;z-index:1;top:0;left:0;background-color:white;position:fixed;height:100%;color:black;font-family:'Holtwood One SC';transition:0.4s;padding:50px 0px 0px 20px;}
+.showNavIcon{text-align:right;float:right;font-size:250%;}
+.closeNavBtn{position:absolute;top:0;right:20px;font-size:50px;color:black;cursor:pointer;}
+.closeNavBtn:hover{transition:0.2s;color:#990000;}
+.skillsImgBig{width:70%;}
+.skillsImgMed{width:50%;}
+.skillsImgSmall{width:40%;}
+}
+@media only screen and (max-width:614px){.intro h1{font-size:300%;}
+.intro p{font-size:150%;}
+#about, #services, #works{padding:10px;}
+.menuListLink{font-size:300%;}
+.menuBlockHead{font-size:200%;}
+.menuBlockDesc{font-size:125%;text-align:left;text-shadow:2px 2px black;}
+}
+@media only screen and (max-width:400px){.first{padding:0px 10px;}
+.overWord{font-size:35px;text-align:center;color:white;text-shadow:3px 3px black;}
+.overNote{font-size:40px;text-shadow:3px 3px black;text-align:center;color:white;}
+.menuBlockDesc{font-size:110%;}
+}
